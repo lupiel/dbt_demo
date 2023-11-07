@@ -37,4 +37,6 @@ cat /home/codespace/.dbt/profiles.yml
 dbt debug
 dbt run
 dbt test
+dbt deps
+-- more packages at https://hub.getdbt.com/
 ```
