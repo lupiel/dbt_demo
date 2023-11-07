@@ -10,3 +10,15 @@ sources:
         description: "Bike station information"
       - name: bikeshare_trips
         description: "Bike trips data"
+
+models:
+  - name: austin_bikeshare__district_stations
+    description: >
+      Table show number of stations per 100 thousands of population
+    columns:
+      - name: council_district
+        description: "Distrinct number"
+        tests:
+          - is_council_district
+      - name: station_per_capita
+        description: "Number of stations per 100 thousand of population"

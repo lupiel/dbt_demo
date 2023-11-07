@@ -46,4 +46,8 @@ dbt docs serve
 -- more at https://docs.getdbt.com/reference/commands/cmd-docs
 
 dbt seed
+
+dbt test -m austin_bikeshare__district_stations
+dbt test
+https://docs.getdbt.com/guides/best-practices/writing-custom-generic-tests
 ```
