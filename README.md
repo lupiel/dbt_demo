@@ -44,4 +44,6 @@ dbt deps
 dbt docs generate
 dbt docs serve
 -- more at https://docs.getdbt.com/reference/commands/cmd-docs
+
+dbt seed
 ```
