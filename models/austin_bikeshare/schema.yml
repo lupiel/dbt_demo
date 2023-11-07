@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: austin_bikeshare
+    description: "Bigquery Austin bike share dataset"
+    database: bigquery-public-data  
+    schema: austin_bikeshare  
+    tables:
+      - name: bikeshare_stations
+        description: "Bike station information"
+      - name: bikeshare_trips
+        description: "Bike trips data"

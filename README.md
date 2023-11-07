@@ -16,7 +16,7 @@ Try running the following commands:
 
 
 
-# dbt_demo
+# dbt_demo setup
 
 ```
 pip install \
@@ -35,4 +35,5 @@ dbt_demo
 
 cat /home/codespace/.dbt/profiles.yml
 dbt debug
+dbt run
 ```
