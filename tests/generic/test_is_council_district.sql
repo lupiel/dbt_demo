@@ -9,7 +9,7 @@ validation_errors as (
     select
         council_district
     from validation
-    where council_district not in (1, 3, 5, 8, 9, 10)
+    where council_district not in {{ var('council_districts')}}
 )
 select *
 from validation_errors

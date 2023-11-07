@@ -6,6 +6,9 @@ name: 'dbt_demo'
 version: '1.0.0'
 config-version: 2
 
+vars:
+  council_districts: "(1, 3, 5, 8, 9, 10)"
+
 # This setting configures which "profile" dbt uses for this project.
 profile: 'bigquery'
 

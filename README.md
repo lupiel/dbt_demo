@@ -50,4 +50,6 @@ dbt seed
 dbt test -m austin_bikeshare__district_stations
 dbt test
 https://docs.getdbt.com/guides/best-practices/writing-custom-generic-tests
+
+dbt test -m austin_bikeshare__district_stations --vars '{"council_districts": "(1, 3, 5, 8, 9)"}'
 ```
