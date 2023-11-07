@@ -36,4 +36,5 @@ dbt_demo
 cat /home/codespace/.dbt/profiles.yml
 dbt debug
 dbt run
+dbt test
 ```
