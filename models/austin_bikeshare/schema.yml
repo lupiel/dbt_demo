@@ -17,7 +17,7 @@ models:
       Table show number of stations per 100 thousands of population
     columns:
       - name: council_district
-        description: "Distrinct number"
+        description: '{{ doc("district_description") }}'
         tests:
           - is_council_district
       - name: station_per_capita

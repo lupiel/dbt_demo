@@ -55,4 +55,9 @@ dbt test -m austin_bikeshare__district_stations --vars '{"council_districts": "(
 
 dbt run -m austin_bikeshare__district_stations
 https://github.com/dbt-labs/dbt-event-logging
+
+# docs blocks
+https://docs.getdbt.com/docs/collaborate/documentation#using-docs-blocks
+dbt docs generate
+dbt docs serve
 ```
